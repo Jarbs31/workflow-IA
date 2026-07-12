@@ -52,3 +52,8 @@ coverage/
 *.key
 credentials.json
 secrets.json
+
+# Artefatos temporários de push GitHub
+.github-push-batches/
+.github-push-batches-v2/
+.github-push-batches-v3/
