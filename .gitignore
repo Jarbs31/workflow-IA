@@ -1,0 +1,54 @@
+# Dependências
+node_modules/
+.pnpm-store/
+
+# Build
+dist/
+dist-ssr/
+*.local
+
+# Variáveis de ambiente (NUNCA commitar chaves reais)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite/
+
+# Testes / cobertura
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.turbo/
+*.tsbuildinfo
+
+# Supabase local (se usar CLI no futuro)
+.supabase/
+.branches/
+.temp/
+
+# Certificados e secrets
+*.pem
+*.key
+credentials.json
+secrets.json
